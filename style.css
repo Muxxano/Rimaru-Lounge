@@ -1,0 +1,51 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  z-index: 1;
+  width: 100%;
+  background-color: #fff;
+  transition: 0.3s;
+}
+nav:hover {
+  box-shadow: 0 7px 6px -5px rgba(0, 0, 0, 0.5);
+}
+
+nav h1:hover {
+  transition: 1s;
+  color: #d2691e;
+  transform: rotate(360deg);
+}
+
+main {
+  padding: 10% 0;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 90%;
+  height: 400px;
+}
+.imgContainer img {
+  position: relative;
+  max-width: 100%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid #d2691e;
+  transition: 0.7s;
+}
+.imgContainer img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 15px 10px -5px rgba(0, 0, 0, 0.5);
+}
