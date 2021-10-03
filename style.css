@@ -13,6 +13,7 @@ nav {
   z-index: 1;
   width: 100%;
   background-color: #fff;
+  border-bottom: 3px solid #f1f1f1;
   transition: 0.3s;
 }
 nav:hover {
