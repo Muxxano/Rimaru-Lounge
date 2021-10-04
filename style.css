@@ -91,14 +91,6 @@ main {
   width: 40%;
   transition: 1s;
 }
-@media (max-width: 500px) {
-  .imgContainer {
-    margin: 5rem 0 1rem 0;
-  }
-  .imgContainer div {
-    height: 7.5rem;
-  }
-}
 
 @media (max-width: 925px) {
   .aboutContainer,
@@ -118,11 +110,23 @@ main {
   .aboutContainer p {
     font-size: 0.6rem;
   }
+  .imgContainer {
+    margin: 5rem 0 0.5rem 0;
+  }
+  .imgContainer div {
+    height: 7rem;
+  }
 }
 
 @media (max-width: 413px) {
   .aboutContainer p {
     font-size: 0.5rem;
+  }
+  .imgContainer {
+    margin: 5rem 0 0.5rem 0;
+  }
+  .imgContainer div {
+    height: 6rem;
   }
 }
 @media (max-width: 377px) {
@@ -132,5 +136,11 @@ main {
   }
   .aboutContainer p {
     font-size: 0.4rem;
+  }
+  .imgContainer {
+    margin: 5rem 0 0.2rem 0;
+  }
+  .imgContainer div {
+    height: 5rem;
   }
 }
