@@ -6,6 +6,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: no-repeat center/cover url("Rback.jpg");
 }
 nav {
   display: flex;
@@ -28,10 +29,7 @@ nav h1:hover {
 }
 
 main {
-  padding: 10vh 0;
-}
-.bgimage {
-  background: no-repeat center/cover url("Rback.jpg");
+  padding: 10% 0;
 }
 
 .imgContainer {
@@ -78,8 +76,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 45%;
-  min-width: 45%;
+  width: 40%;
   padding: 2%;
   height: 500px;
   margin: 0 3%;
@@ -93,11 +90,15 @@ h2 {
   color: #fff;
 }
 
-.middle-section {
+/* .aboutContainer div {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 50%;
   width: 100%;
-  height: 50vh;
-  background-color: #e1f1ffa9;
-}
+  transition: 1s;
+} */
 
 @media (max-width: 925px) {
   .aboutContainer,
@@ -109,7 +110,7 @@ h2 {
   }
 }
 
-@media (min-width: 413px) {
+@media (max-width: 653px) {
   .aboutContainer,
   .aboutContainer div {
     height: 35%;
@@ -125,7 +126,7 @@ h2 {
   }
 }
 
-@media (min-width: 377px) {
+@media (max-width: 413px) {
   .aboutContainer p {
     font-size: 0.6rem;
   }
@@ -133,16 +134,16 @@ h2 {
     margin: 5rem 0 0.5rem 0;
   }
   .imgContainer div {
-    height: 666rem;
+    height: 6rem;
   }
 }
-@media (min-width: 0px) {
+@media (max-width: 377px) {
   .aboutContainer,
   .aboutContainer div {
     height: 25%;
   }
   .aboutContainer p {
-    font-size: 0.555rem;
+    font-size: 0.5rem;
   }
   .imgContainer {
     margin: 5rem 0 0.2rem 0;
