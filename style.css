@@ -6,8 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: no-repeat center/cover
-    url("https://th.bing.com/th/id/R.9965307224fd4d128e4b509344182fa5?rik=%2bLbh9LQKvXro0Q&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fabstract-colorful-space-colors-art-4k-jr.jpg&ehk=jerVaRuRHKKk3AmX2d2Z7%2ffmT1HeKgcfEC3htXKBTz0%3d&risl=&pid=ImgRaw&r=0");
+  background: no-repeat center/cover url("Rback.jpg");
 }
 nav {
   display: flex;
@@ -89,7 +88,7 @@ h2 {
   color: #fff;
 }
 
-.aboutContainer div {
+/* .aboutContainer div {
   position: absolute;
   z-index: -1;
   left: 0;
@@ -97,7 +96,7 @@ h2 {
   height: 50%;
   width: 100%;
   transition: 1s;
-}
+} */
 
 @media (max-width: 925px) {
   .aboutContainer,
