@@ -110,7 +110,7 @@ h2 {
   }
 }
 
-@media (max-width: 653px) {
+@media (min-width: 413px) {
   .aboutContainer,
   .aboutContainer div {
     height: 35%;
@@ -126,7 +126,7 @@ h2 {
   }
 }
 
-@media (max-width: 413px) {
+@media (min-width: 317px) {
   .aboutContainer p {
     font-size: 0.6rem;
   }
@@ -137,7 +137,7 @@ h2 {
     height: 6rem;
   }
 }
-@media (max-width: 377px) {
+@media (min-width: 0px) {
   .aboutContainer,
   .aboutContainer div {
     height: 25%;
