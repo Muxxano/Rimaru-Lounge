@@ -115,7 +115,7 @@ h2 {
     height: 35%;
   }
   .aboutContainer p {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
   .imgContainer {
     margin: 5rem 0 0.5rem 0;
@@ -127,7 +127,7 @@ h2 {
 
 @media (max-width: 413px) {
   .aboutContainer p {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   .imgContainer {
     margin: 5rem 0 0.5rem 0;
@@ -142,7 +142,7 @@ h2 {
     height: 25%;
   }
   .aboutContainer p {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
   .imgContainer {
     margin: 5rem 0 0.2rem 0;
