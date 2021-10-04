@@ -6,7 +6,6 @@
 body {
   margin: 0;
   padding: 0;
-  background: no-repeat center/cover url("Rback.jpg");
 }
 nav {
   display: flex;
@@ -30,6 +29,9 @@ nav h1:hover {
 
 main {
   padding: 10% 0;
+}
+.bgimage {
+  background: no-repeat center/cover url("Rback.jpg");
 }
 
 .imgContainer {
@@ -90,15 +92,11 @@ h2 {
   color: #fff;
 }
 
-/* .aboutContainer div {
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.7);
-  height: 50%;
+.middle-section {
+  background-color: #e1f1ffa1;
   width: 100%;
-  transition: 1s;
-} */
+  height: 40vh;
+}
 
 @media (max-width: 925px) {
   .aboutContainer,
