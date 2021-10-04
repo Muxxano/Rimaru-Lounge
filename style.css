@@ -102,7 +102,7 @@ h2 {
 @media (max-width: 925px) {
   .aboutContainer,
   .aboutContainer div {
-    height: 40%;
+    height: 45%;
   }
   .aboutContainer p {
     font-size: 0.8rem;
@@ -112,7 +112,7 @@ h2 {
 @media (max-width: 653px) {
   .aboutContainer,
   .aboutContainer div {
-    height: 30%;
+    height: 35%;
   }
   .aboutContainer p {
     font-size: 0.6rem;
@@ -139,7 +139,7 @@ h2 {
 @media (max-width: 377px) {
   .aboutContainer,
   .aboutContainer div {
-    height: 20%;
+    height: 25%;
   }
   .aboutContainer p {
     font-size: 0.4rem;
