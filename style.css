@@ -82,6 +82,7 @@ main {
   border-radius: 1rem;
   background-color: #289fcec0;
   transition: 1s;
+  min-width: 250px;
 }
 .aboutContainer p,
 h2 {
@@ -132,7 +133,7 @@ h2 {
     margin: 5rem 0 0.5rem 0;
   }
   .imgContainer div {
-    height: 20rem;
+    height: 6rem;
   }
 }
 @media (max-width: 377px) {
