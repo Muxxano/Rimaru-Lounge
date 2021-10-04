@@ -101,27 +101,36 @@ main {
 }
 
 @media (max-width: 925px) {
-  .aboutContainer {
-    min-width: 30%;
+  .aboutContainer,
+  .aboutContainer div {
+    height: 30rem;
   }
   .aboutContainer p {
     font-size: 0.8rem;
   }
 }
 
-@media (max-width: 637px) {
+@media (max-width: 653px) {
+  .aboutContainer,
+  .aboutContainer div {
+    height: 28.5rem;
+  }
   .aboutContainer p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }
 
-@media (max-width: 485px) {
+@media (max-width: 413px) {
   .aboutContainer p {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 }
 @media (max-width: 377px) {
+  .aboutContainer,
+  .aboutContainer div {
+    height: 20rem;
+  }
   .aboutContainer p {
-    font-size: 0.6rem;
+    font-size: 0.4rem;
   }
 }
