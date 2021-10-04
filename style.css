@@ -1,5 +1,6 @@
 * {
   font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -34,13 +35,13 @@ main {
   display: flex;
   justify-content: space-evenly;
   margin: 0 auto;
-  width: 90%;
-  height: 400px;
+  width: 95%;
+  height: 200px;
+  margin: 3rem 0;
 }
 .imgContainer div {
-  position: relative;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border: 2px solid #d2691e;
   transition: 0.7s;
@@ -89,4 +90,33 @@ main {
   height: 500px;
   width: 40%;
   transition: 1s;
+}
+@media (max-width: 500px) {
+  .imgContainer {
+    margin: 5rem 0 1rem 0;
+  }
+  .imgContainer div {
+    height: 7.5rem;
+  }
+}
+
+@media (max-width: 925px) {
+  .aboutContainer {
+    min-width: 30%;
+  }
+  .aboutContainer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 637px) {
+  .aboutContainer p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 485px) {
+  .aboutContainer p {
+    font-size: 0.5rem;
+  }
 }
