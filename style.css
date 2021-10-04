@@ -8,7 +8,6 @@ body {
   padding: 0;
   background: no-repeat center/cover
     url("https://th.bing.com/th/id/R.9965307224fd4d128e4b509344182fa5?rik=%2bLbh9LQKvXro0Q&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fabstract-colorful-space-colors-art-4k-jr.jpg&ehk=jerVaRuRHKKk3AmX2d2Z7%2ffmT1HeKgcfEC3htXKBTz0%3d&risl=&pid=ImgRaw&r=0");
-  
 }
 nav {
   display: flex;
@@ -81,24 +80,29 @@ main {
   padding: 2%;
   height: 500px;
   margin: 0 3%;
-  background-color: rgb(127, 255, 212);
+  border-radius: 1rem;
+  background-color: #289fcec0;
   transition: 1s;
+}
+.aboutContainer p,
+h2 {
+  color: #fff;
 }
 
 .aboutContainer div {
   position: absolute;
   z-index: -1;
-  left: 12%;
-  background-color: rgba(248, 63, 63, 0.7);
-  height: 500px;
-  width: 40%;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 50%;
+  width: 100%;
   transition: 1s;
 }
 
 @media (max-width: 925px) {
   .aboutContainer,
   .aboutContainer div {
-    height: 30rem;
+    height: 40%;
   }
   .aboutContainer p {
     font-size: 0.8rem;
@@ -108,7 +112,7 @@ main {
 @media (max-width: 653px) {
   .aboutContainer,
   .aboutContainer div {
-    height: 28.5rem;
+    height: 30%;
   }
   .aboutContainer p {
     font-size: 0.6rem;
@@ -129,13 +133,13 @@ main {
     margin: 5rem 0 0.5rem 0;
   }
   .imgContainer div {
-    height: 6rem;
+    height: 20rem;
   }
 }
 @media (max-width: 377px) {
   .aboutContainer,
   .aboutContainer div {
-    height: 20rem;
+    height: 20%;
   }
   .aboutContainer p {
     font-size: 0.4rem;
