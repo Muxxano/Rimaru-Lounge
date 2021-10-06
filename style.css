@@ -93,9 +93,46 @@ h2 {
 }
 
 .middle-section {
+  border: 1px solid rgb(211, 211, 211);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   background-color: #e1f1ffa1;
   width: 100%;
   height: 40vh;
+}
+.hobbies {
+  padding: 1.5%;
+  border-radius: 0 10% 0 10%;
+  background: #dcdcfc;
+  height: 75%;
+  width: 23%;
+  transition: all 1s;
+}
+.hobbies h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hobbies:nth-of-type(2n + 1) {
+  align-self: flex-end;
+}
+
+.hobbies:hover {
+  z-index: 1;
+  box-shadow: 0 20px 10px 15px rgba(0, 0, 0, 0.068);
+  transform: scale(2, 2);
+}
+.hobbies:nth-of-type(1):hover {
+  z-index: 1;
+  box-shadow: 0 20px 10px 15px rgba(0, 0, 0, 0.068);
+  transform: scale(2, 2) translateX(90%);
+}
+
+.hobbies:last-of-type:hover {
+  z-index: 1;
+  box-shadow: 0 20px 10px 15px rgba(0, 0, 0, 0.068);
+  transform: scale(2, 2) translateX(-80%);
 }
 
 @media (max-width: 925px) {
